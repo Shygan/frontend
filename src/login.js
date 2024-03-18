@@ -10,6 +10,10 @@ const Login = (props) => {
 
   const navigate = useNavigate()
 
+  const navigateToSignUp = () => {
+    navigate('/signup')
+  }
+
   const onButtonClick = () => {
     // You'll update this function later...
     // Set initial error values to empty
@@ -72,6 +76,9 @@ const Login = (props) => {
       <div className={'inputContainer'}>
         <input className={'inputButton'} type="button" onClick={onButtonClick} value={'Log In'} />
       </div>
+      {/* Additional button to navigate to signup page */}
+      <div>Don't have an account?</div> 
+      <button className="redUnderlineButton" onClick={navigateToSignUp}>Sign Up</button>
     </div>
   )
 }
