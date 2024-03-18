@@ -49,6 +49,7 @@ const Signup = (props) => {
           <div>Create Account</div>
         </div>
         <br />
+        {/* Email Input */}
         <div className={'inputContainer'}>
           <input
             value={email}
@@ -59,6 +60,7 @@ const Signup = (props) => {
           <label className="errorLabel">{emailError}</label>
         </div>
         <br />
+        {/* Password */}
         <div className={'inputContainer'}>
           <input
             value={password}
@@ -69,6 +71,7 @@ const Signup = (props) => {
           <label className="errorLabel">{passwordError}</label>
         </div>
         <br />
+        {/* Sign Up button */}
         <div className={'inputContainer'}>
           <input className={'inputButton'} type="button" onClick={onButtonClick} value={'Sign Up'} />
         </div>
