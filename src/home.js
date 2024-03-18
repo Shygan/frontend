@@ -20,7 +20,7 @@ const Home = (props) => {
         {/* Insert the <img> element here */}
         <img src= {SwoleMates} alt = "SwoleMates Logo"/>
       </div>
-      <div>This is the home page.</div>
+      <div>Sweat Together, Swole Together!</div>
       <div className={'buttonContainer'}>
         <input
           className={'inputButton'}
