@@ -65,3 +65,11 @@
   border: 1px solid grey;
   padding-left: 8px;
 }
+
+.redUnderlineButton {
+  color: red;
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}

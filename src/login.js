@@ -77,8 +77,9 @@ const Login = (props) => {
         <input className={'inputButton'} type="button" onClick={onButtonClick} value={'Log In'} />
       </div>
       {/* Additional button to navigate to signup page */}
-      <div>Don't have an account?</div> 
+      <div>Don't have an account? 
       <button className="redUnderlineButton" onClick={navigateToSignUp}>Sign Up</button>
+      </div>
     </div>
   )
 }
