@@ -18,7 +18,7 @@ const Home = (props) => {
       <div className={'titleContainer'}>
         <div>Welcome!</div>
         {/* Insert the <img> element here */}
-        <img src= {SwoleMates} alt = "SwoleMates Logo"/>
+        <img src= {SwoleMates} alt = "SwoleMates Logo" style = {{width: '400px', height: 'auto'}}/>
       </div>
       <div>Sweat Together, Swole Together!</div>
       <div className={'buttonContainer'}>
@@ -26,7 +26,7 @@ const Home = (props) => {
           className={'inputButton'}
           type="button"
           onClick={onButtonClick}
-          value={loggedIn ? 'Log out' : 'Log in'}
+          value={loggedIn ? 'Log Out' : 'Log In'}
         />
         {loggedIn ? <div>Your email address is {email}</div> : <div />}
       </div>
