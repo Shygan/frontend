@@ -73,3 +73,7 @@
   background-color: transparent;
   cursor: pointer;
 }
+
+.redUnderlineButton:hover {
+  text-decoration: none;
+}
